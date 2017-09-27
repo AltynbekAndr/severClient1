@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kg.com.severelectro.IpPortActivity"
+    android:gravity="center"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:background="@drawable/background3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL"
+        android:id="@+id/textView59"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="100"
+        android:id="@+id/editText6"
+        android:text="http://"
+        android:maxLength="100"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="сохранить"
+        android:id="@+id/button4"
+        style="@style/ThemeButtonAlert"
+        android:textColor="#ffffff"
+        android:nestedScrollingEnabled="false"
+        android:onClick="writeIpPort"
+        android:layout_marginTop="25dp" />
+</LinearLayout>
